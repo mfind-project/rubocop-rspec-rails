@@ -1,0 +1,25 @@
+inherit_gem:
+  mfind-rubocop-rspec:
+    - default.yml
+
+inherit_mode:
+  merge:
+    - Exclude
+
+require: rubocop-rails
+
+AllCops:
+  Exclude:
+    - script/**/*
+    - db/**/*
+
+# Allow usage of `render :x and return if condition?`
+# in controllers, where `&&` instead of `and` wouldn't work
+Style/AndOr:
+  Include:
+    - app/controllers/**/*_controller.rb
+  EnforcedStyle: conditionals
+
+Rails/SkipsModelValidations:
+  Exclude:
+    - "**/*_spec.rb"
