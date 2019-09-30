@@ -12,6 +12,7 @@ AllCops:
   Exclude:
     - script/**/*
     - db/**/*
+    - node_modules/**/*
 
 # Allow usage of `render :x and return if condition?`
 # in controllers, where `&&` instead of `and` wouldn't work
