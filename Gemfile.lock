@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     mfind-rubocop-rspec-rails (1.0.3)
-      mfind-rubocop-rspec (~> 1.0, >= 1.0.3)
+      mfind-rubocop-rspec (~> 1.1.0, >= 1.1.0)
       rubocop-rails (~> 2.3.2)
 
 GEM
@@ -10,23 +10,23 @@ GEM
   specs:
     ast (2.4.0)
     jaro_winkler (1.5.3)
-    mfind-rubocop-rspec (1.0.3)
-      rubocop (~> 0.74.0)
-      rubocop-performance (~> 1.4.1)
+    mfind-rubocop-rspec (1.1.0)
+      rubocop (~> 0.75.0)
+      rubocop-performance (~> 1.5.0)
       rubocop-rspec (~> 1.36.0)
     parallel (1.18.0)
     parser (2.6.5.0)
       ast (~> 2.4.0)
     rack (2.0.7)
     rainbow (3.0.0)
-    rubocop (0.74.0)
+    rubocop (0.75.0)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.6)
       rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 1.7)
-    rubocop-performance (1.4.1)
+    rubocop-performance (1.5.0)
       rubocop (>= 0.71.0)
     rubocop-rails (2.3.2)
       rack (>= 1.1)
