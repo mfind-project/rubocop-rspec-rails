@@ -5,10 +5,10 @@
 
 RuboCop rules for mfind projects that use Ruby on Rails. Includes:
 
-- [`mfind-rubocop-rspec`](mfind-rubocop-rspec)
-- [`rubocop-rails`](rubocop-rails)
+- [`mfind-rubocop-rspec`][mfind-rubocop-rspec]
+- [`rubocop-rails`][rubocop-rails]
 
-If you do not create Ruby on Rails project, **use gem [`mfind-rubocop-rspec`](mfind-rubocop-rspec) instead.**
+If you do not create Ruby on Rails project, **use gem [`mfind-rubocop-rspec`][mfind-rubocop-rspec] instead.**
 
 ## Installation
 
@@ -53,26 +53,26 @@ $ bundle exec rubocop
 
 ## Configuration
 
-All configuration goes to [default.yml](config) file.
+All configuration goes to [default.yml][config] file.
 
-- [`mfind-rubocop-rspec` defaults](mfind-rubocop-rspec-defaults)
-- [`rubocop-rails` defaults](rubocop-rails-defaults) & [Rails styleguide](rails-styleguide)
-- [`rubocop` defaults](rubocop-defaults) & [Ruby styleguide](ruby-styleguide)
-- [`rubocop-rspec` defaults](rubocop-rspec-defaults) & [RSpec styleguide](rspec-styleguide)
-- [`rubocop-performance` defaults](rubocop-performance-defaults)
+- [`mfind-rubocop-rspec` defaults][mfind-rubocop-rspec-defaults]
+- [`rubocop-rails` defaults][rubocop-rails-defaults] & [Rails styleguide][rails-styleguide]
+- [`rubocop` defaults][rubocop-defaults] & [Ruby styleguide][ruby-styleguide]
+- [`rubocop-rspec` defaults][rubocop-rspec-defaults] & [RSpec styleguide][rspec-styleguide]
+- [`rubocop-performance` defaults][rubocop-performance-defaults]
 
 ## Publish to RubyGems
 
 In order to publish new version of the gem follow the steps:
 
 1. `git hf release start X.Y.Z`
-2. bump up version in [`MfindRuboCopRSpec::VERSION`](gem-version-path)
+2. bump up version in [`MfindRuboCopRSpec::VERSION`][gem-version-path]
 3. `git commit -am 'UPD version to X.Y.Z'`
 4. `git hf release finish X.Y.Z`
 5. `bundle update mfind-rubocop-rspec-rails` in projects that use it
 
 The `gem push` script is set up on CircleCI upon `git hf release finish`, as per
-[Publishing RubyGems using Circle CI 2.0 article](publishing-rubygems-using-circleci).
+[Publishing RubyGems using Circle CI 2.0 article][publishing-rubygems-using-circleci].
 
 [rubocop-rails]: https://github.com/rubocop-hq/rubocop-rails
 [mfind-rubocop-rspec]: https://github.com/mfind-project/mfind-rubocop-rspec
