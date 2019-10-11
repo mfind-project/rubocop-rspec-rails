@@ -15,6 +15,6 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/mfind-project/mfind-rubocop-rspec-rails'
   spec.files         = ['lib/mfind_rubocop_rspec_rails.rb', 'default.yml', '.rubocop.yml']
   spec.require_paths = ['lib']
-  spec.add_dependency 'mfind-rubocop-rspec', '~> 1.0', '>= 1.0.3'
+  spec.add_dependency 'mfind-rubocop-rspec', '~> 1.1.0', '>= 1.1.0'
   spec.add_dependency 'rubocop-rails', '~> 2.3.2'
 end
