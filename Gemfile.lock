@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mfind-rubocop-rspec-rails (1.1.0)
+    mfind-rubocop-rspec-rails (1.2.0)
       mfind-rubocop-rspec (~> 1.2.0, >= 1.2.0)
       rubocop-rails (~> 2.4.2)
 
