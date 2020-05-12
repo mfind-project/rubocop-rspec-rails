@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mfind-rubocop-rspec-rails (1.2.0)
+    mfind-rubocop-rspec-rails (1.2.1)
       mfind-rubocop-rspec (~> 1.2.0, >= 1.2.0)
       rubocop-rails (~> 2.4.2)
 
@@ -10,17 +10,17 @@ GEM
   specs:
     ast (2.4.0)
     jaro_winkler (1.5.4)
-    mfind-rubocop-rspec (1.2.0)
+    mfind-rubocop-rspec (1.2.1)
       rubocop (~> 0.80.0)
       rubocop-performance (~> 1.5.2)
       rubocop-rspec (~> 1.38.1)
     parallel (1.19.1)
-    parser (2.7.0.3)
+    parser (2.7.1.2)
       ast (~> 2.4.0)
     rack (2.2.2)
     rainbow (3.0.0)
     rexml (3.2.4)
-    rubocop (0.80.0)
+    rubocop (0.80.1)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.7.0.1)
@@ -45,4 +45,4 @@ DEPENDENCIES
   mfind-rubocop-rspec-rails!
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
