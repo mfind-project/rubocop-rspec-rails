@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     mfind-rubocop-rspec-rails (1.2.1)
-      mfind-rubocop-rspec (~> 1.2.0, >= 1.2.0)
+      mfind-rubocop-rspec (~> 1.2.1, >= 1.2.1)
       rubocop-rails (~> 2.4.2)
 
 GEM
