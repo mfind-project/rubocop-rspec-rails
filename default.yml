@@ -24,3 +24,6 @@ Style/AndOr:
 Rails/SkipsModelValidations:
   Exclude:
     - "**/*_spec.rb"
+
+Style/RedundantPercentQ:
+  Enabled: false
